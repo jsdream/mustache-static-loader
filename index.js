@@ -1,8 +1,8 @@
 const Mustache = require('mustache');
-import {getOptions} from 'loader-utils';
+const loaderUtils = require('loader-utils');
 
-export default function (source) {
-    const options = getOptions(this) || {};
+module.exports = function (source) {
+    const options = loaderUtils.getOptions(this) || {};
 
     let viewData = {};
 
@@ -18,4 +18,4 @@ export default function (source) {
     }
 
     return Mustache.render(source, viewData);
-}
+};
