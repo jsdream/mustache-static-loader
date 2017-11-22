@@ -1,4 +1,4 @@
-import * as Mustache from 'mustache';
+const Mustache = require('mustache');
 import {getOptions} from 'loader-utils';
 
 export default function (source) {
