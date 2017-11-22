@@ -1,0 +1,28 @@
+{
+  "name": "mustache-static-loader",
+  "version": "1.0.0",
+  "description": "Mustache.js static loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdream/mustache-static-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "mustache",
+    "loader",
+    "static"
+  ],
+  "author": "Vladyslav Mashkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdream/mustache-static-loader/issues"
+  },
+  "homepage": "https://github.com/jsdream/mustache-static-loader#readme",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
+}
