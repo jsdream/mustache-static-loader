@@ -1,6 +1,6 @@
 {
   "name": "mustache-static-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mustache.js static loader for Webpack",
   "main": "index.js",
   "scripts": {
