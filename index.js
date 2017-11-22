@@ -17,5 +17,7 @@ module.exports = function (source) {
         Mustache.tags = options.delimiters;
     }
 
-    return Mustache.render(source, viewData);
+    const renderedView = Mustache.render(source, viewData);
+
+    return 'module.exports = function() { return ' + renderedView + '; };';
 };
