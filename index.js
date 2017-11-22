@@ -19,5 +19,5 @@ module.exports = function (source) {
 
     const renderedView = Mustache.render(source, viewData);
 
-    return 'module.exports = function() { return ' + renderedView + '; };';
+    return 'module.exports = function() { return ' + JSON.stringify(renderedView) + '; };';
 };
